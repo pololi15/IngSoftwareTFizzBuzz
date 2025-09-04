@@ -33,5 +33,4 @@ describe('fizzbuzz', () => {
       1, 2, "fizz", 4, "buzz", "fizz", 7, 8, "fizz", "buzz" 
     ]);
   });
-  
 });
