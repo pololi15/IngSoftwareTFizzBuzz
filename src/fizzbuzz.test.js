@@ -1,4 +1,5 @@
 import fizzbuzz from './fizzbuzz';
+import { fizzbuzzSequence } from './fizzbuzz';
 
 describe('fizzbuzz', () => {
     it('deberia devolver "1" si le pongo de entrada 1', () => {
@@ -26,5 +27,11 @@ describe('fizzbuzz', () => {
     it('deberia devolver "fizzbuzz" si le pongo de entrada 30', () => {
         expect(fizzbuzz(30)).toEqual("fizzbuzz");
     });
-    
+
+    it('debería devolver la secuencia hasta 10', () => {
+        expect(fizzbuzzSequence(10)).toEqual([
+      1, 2, "fizz", 4, "buzz", "fizz", 7, 8, "fizz", "buzz" 
+    ]);
+  });
+  
 });

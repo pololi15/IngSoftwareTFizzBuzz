@@ -5,4 +5,14 @@ if (n % 5 === 0) return "buzz"
     return n
 }
 
+export function fizzbuzzSequence(limit) {
+  const result = [];
+  for (let i = 1; i <= limit; i++) {
+    result.push(fizzbuzz(i));
+  }
+  return result;
+}
+
+
+
 export default fizzbuzz;

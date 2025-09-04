@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7045cae0ef6b3d298806032630916d6b9f79a3de",
     "author": "Ostin",
     "commit": {
       "date": "2025-09-04T06:07:46.000Z",
       "message": "feat: devuelve buzz con entradas que sean multiplos de 5 y lo mismo con el resto",
-      "url": "https://github.com/pololi15/IngSoftwareTFizzBuzz/commit/HEAD"
+      "url": "https://github.com/pololi15/IngSoftwareTFizzBuzz/commit/7045cae0ef6b3d298806032630916d6b9f79a3de"
     },
     "stats": {
       "total": 10,
@@ -129,6 +129,25 @@
     },
     "coverage": 100,
     "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Ostin",
+    "commit": {
+      "date": "2025-09-04T06:12:12.000Z",
+      "message": "feat: devuelve la secuencia esperada",
+      "url": "https://github.com/pololi15/IngSoftwareTFizzBuzz/commit/HEAD"
+    },
+    "stats": {
+      "total": 19,
+      "additions": 18,
+      "deletions": 1,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 1,
     "failed_tests": 0,
     "conclusion": "success"
   }
