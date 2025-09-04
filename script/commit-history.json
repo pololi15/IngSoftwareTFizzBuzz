@@ -95,12 +95,12 @@
     "conclusion": "failure"
   },
   {
-    "sha": "HEAD",
+    "sha": "d3ba6800d9f1c1e6d402a0a32f62ff4c96bb8f2d",
     "author": "Ostin",
     "commit": {
       "date": "2025-09-04T05:56:51.000Z",
       "message": "feat: devuelve fizzbuzz si la entrada es 15 o si es multiplo de 3 y 5",
-      "url": "https://github.com/pololi15/IngSoftwareTFizzBuzz/commit/HEAD"
+      "url": "https://github.com/pololi15/IngSoftwareTFizzBuzz/commit/d3ba6800d9f1c1e6d402a0a32f62ff4c96bb8f2d"
     },
     "stats": {
       "total": 2,
@@ -110,6 +110,25 @@
     },
     "coverage": 100,
     "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Ostin",
+    "commit": {
+      "date": "2025-09-04T06:07:46.000Z",
+      "message": "feat: devuelve buzz con entradas que sean multiplos de 5 y lo mismo con el resto",
+      "url": "https://github.com/pololi15/IngSoftwareTFizzBuzz/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 10,
+      "deletions": 0,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"
   }
