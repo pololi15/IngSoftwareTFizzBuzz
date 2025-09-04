@@ -7,4 +7,8 @@ describe('fizzbuzz', () => {
     it('deberia devolver "2" si le pongo de entrada 2', () => {
         expect(fizzbuzz(2)).toEqual(2);
     });
+    it('deberia devolver "fizz" si le pongo de entrada 3', () => {
+        expect(fizzbuzz(3)).toEqual("fizz");
+    });
+    
 });
