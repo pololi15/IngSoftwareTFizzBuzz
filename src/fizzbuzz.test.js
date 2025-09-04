@@ -13,5 +13,8 @@ describe('fizzbuzz', () => {
     it('deberia devolver "buzz" si le pongo de entrada 5', () => {
         expect(fizzbuzz(5)).toEqual("buzz");
     });
+    it('deberia devolver "fizzbuzz" si le pongo de entrada 15', () => {
+        expect(fizzbuzz(15)).toEqual("fizzbuzz");
+    });
 
 });
